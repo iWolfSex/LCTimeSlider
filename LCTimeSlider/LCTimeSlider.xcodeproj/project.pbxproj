@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A95CE8257530880036A8F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95CE7257530880036A8F3 /* AppDelegate.m */; };
+		18A95CEB257530880036A8F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95CEA257530880036A8F3 /* ViewController.m */; };
+		18A95CEE257530880036A8F3 /* LCTimeSlider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A95CEC257530880036A8F3 /* LCTimeSlider.xcdatamodeld */; };
+		18A95CF02575308A0036A8F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A95CEF2575308A0036A8F3 /* Assets.xcassets */; };
+		18A95CF32575308A0036A8F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A95CF12575308A0036A8F3 /* Main.storyboard */; };
+		18A95CF62575308A0036A8F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95CF52575308A0036A8F3 /* main.m */; };
+		18A95D012575308B0036A8F3 /* LCTimeSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D002575308B0036A8F3 /* LCTimeSliderTests.m */; };
+		18A95D0C2575308B0036A8F3 /* LCTimeSliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D0B2575308B0036A8F3 /* LCTimeSliderUITests.m */; };
+		18A95D31257530B40036A8F3 /* RMCQStatusStripCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D1A257530B30036A8F3 /* RMCQStatusStripCell.m */; };
+		18A95D32257530B40036A8F3 /* RMCQTimeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D1B257530B30036A8F3 /* RMCQTimeSlider.m */; };
+		18A95D33257530B40036A8F3 /* RMCQSliderScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D1D257530B30036A8F3 /* RMCQSliderScrollview.m */; };
+		18A95D34257530B40036A8F3 /* RMCQSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D1E257530B30036A8F3 /* RMCQSlider.m */; };
+		18A95D35257530B40036A8F3 /* RMCQSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D1F257530B30036A8F3 /* RMCQSliderView.m */; };
+		18A95D36257530B40036A8F3 /* RMCQStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D26257530B30036A8F3 /* RMCQStatusView.m */; };
+		18A95D37257530B40036A8F3 /* RMCQStatusScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D28257530B30036A8F3 /* RMCQStatusScrollview.m */; };
+		18A95D38257530B40036A8F3 /* RMCQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D29257530B40036A8F3 /* RMCQTextField.m */; };
+		18A95D39257530B40036A8F3 /* RMCQSliderButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D2C257530B40036A8F3 /* RMCQSliderButtonView.m */; };
+		18A95D3A257530B40036A8F3 /* RMCQStatusData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D2D257530B40036A8F3 /* RMCQStatusData.m */; };
+		18A95D3B257530B40036A8F3 /* RMCQtextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A95D30257530B40036A8F3 /* RMCQtextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A95CFD2575308B0036A8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A95CDB257530880036A8F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A95CE2257530880036A8F3;
+			remoteInfo = LCTimeSlider;
+		};
+		18A95D082575308B0036A8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A95CDB257530880036A8F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A95CE2257530880036A8F3;
+			remoteInfo = LCTimeSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A95CE3257530880036A8F3 /* LCTimeSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCTimeSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A95CE6257530880036A8F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A95CE7257530880036A8F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A95CE9257530880036A8F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A95CEA257530880036A8F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A95CED257530880036A8F3 /* LCTimeSlider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LCTimeSlider.xcdatamodel; sourceTree = "<group>"; };
+		18A95CEF2575308A0036A8F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A95CF22575308A0036A8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A95CF42575308A0036A8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A95CF52575308A0036A8F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A95CF72575308A0036A8F3 /* LCTimeSlider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LCTimeSlider.entitlements; sourceTree = "<group>"; };
+		18A95CFC2575308B0036A8F3 /* LCTimeSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCTimeSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A95D002575308B0036A8F3 /* LCTimeSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTimeSliderTests.m; sourceTree = "<group>"; };
+		18A95D022575308B0036A8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A95D072575308B0036A8F3 /* LCTimeSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCTimeSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A95D0B2575308B0036A8F3 /* LCTimeSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTimeSliderUITests.m; sourceTree = "<group>"; };
+		18A95D0D2575308B0036A8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A95D1A257530B30036A8F3 /* RMCQStatusStripCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQStatusStripCell.m; sourceTree = "<group>"; };
+		18A95D1B257530B30036A8F3 /* RMCQTimeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQTimeSlider.m; sourceTree = "<group>"; };
+		18A95D1C257530B30036A8F3 /* RMCQSliderScrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQSliderScrollview.h; sourceTree = "<group>"; };
+		18A95D1D257530B30036A8F3 /* RMCQSliderScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQSliderScrollview.m; sourceTree = "<group>"; };
+		18A95D1E257530B30036A8F3 /* RMCQSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQSlider.m; sourceTree = "<group>"; };
+		18A95D1F257530B30036A8F3 /* RMCQSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQSliderView.m; sourceTree = "<group>"; };
+		18A95D20257530B30036A8F3 /* RMCQTimeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQTimeSlider.h; sourceTree = "<group>"; };
+		18A95D21257530B30036A8F3 /* RMCQSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQSlider.h; sourceTree = "<group>"; };
+		18A95D22257530B30036A8F3 /* RMCQSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQSliderView.h; sourceTree = "<group>"; };
+		18A95D23257530B30036A8F3 /* RMCQStatusData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQStatusData.h; sourceTree = "<group>"; };
+		18A95D24257530B30036A8F3 /* RMCQStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQStatusView.h; sourceTree = "<group>"; };
+		18A95D25257530B30036A8F3 /* RMCQStatusScrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQStatusScrollview.h; sourceTree = "<group>"; };
+		18A95D26257530B30036A8F3 /* RMCQStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQStatusView.m; sourceTree = "<group>"; };
+		18A95D27257530B30036A8F3 /* RMCQtextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQtextView.h; sourceTree = "<group>"; };
+		18A95D28257530B30036A8F3 /* RMCQStatusScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQStatusScrollview.m; sourceTree = "<group>"; };
+		18A95D29257530B40036A8F3 /* RMCQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQTextField.m; sourceTree = "<group>"; };
+		18A95D2A257530B40036A8F3 /* RMCQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQTextField.h; sourceTree = "<group>"; };
+		18A95D2B257530B40036A8F3 /* RMCQTimeSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQTimeSliderDelegate.h; sourceTree = "<group>"; };
+		18A95D2C257530B40036A8F3 /* RMCQSliderButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQSliderButtonView.m; sourceTree = "<group>"; };
+		18A95D2D257530B40036A8F3 /* RMCQStatusData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQStatusData.m; sourceTree = "<group>"; };
+		18A95D2E257530B40036A8F3 /* RMCQSliderButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQSliderButtonView.h; sourceTree = "<group>"; };
+		18A95D2F257530B40036A8F3 /* RMCQStatusStripCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCQStatusStripCell.h; sourceTree = "<group>"; };
+		18A95D30257530B40036A8F3 /* RMCQtextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCQtextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A95CE0257530880036A8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A95CF92575308B0036A8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A95D042575308B0036A8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A95CDA257530880036A8F3 = {
+			isa = PBXGroup;
+			children = (
+				18A95CE5257530880036A8F3 /* LCTimeSlider */,
+				18A95CFF2575308B0036A8F3 /* LCTimeSliderTests */,
+				18A95D0A2575308B0036A8F3 /* LCTimeSliderUITests */,
+				18A95CE4257530880036A8F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A95CE4257530880036A8F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A95CE3257530880036A8F3 /* LCTimeSlider.app */,
+				18A95CFC2575308B0036A8F3 /* LCTimeSliderTests.xctest */,
+				18A95D072575308B0036A8F3 /* LCTimeSliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A95CE5257530880036A8F3 /* LCTimeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				18A95D192575309F0036A8F3 /* RMCQTimeSlider */,
+				18A95CE6257530880036A8F3 /* AppDelegate.h */,
+				18A95CE7257530880036A8F3 /* AppDelegate.m */,
+				18A95CE9257530880036A8F3 /* ViewController.h */,
+				18A95CEA257530880036A8F3 /* ViewController.m */,
+				18A95CEF2575308A0036A8F3 /* Assets.xcassets */,
+				18A95CF12575308A0036A8F3 /* Main.storyboard */,
+				18A95CF42575308A0036A8F3 /* Info.plist */,
+				18A95CF52575308A0036A8F3 /* main.m */,
+				18A95CF72575308A0036A8F3 /* LCTimeSlider.entitlements */,
+				18A95CEC257530880036A8F3 /* LCTimeSlider.xcdatamodeld */,
+			);
+			path = LCTimeSlider;
+			sourceTree = "<group>";
+		};
+		18A95CFF2575308B0036A8F3 /* LCTimeSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A95D002575308B0036A8F3 /* LCTimeSliderTests.m */,
+				18A95D022575308B0036A8F3 /* Info.plist */,
+			);
+			path = LCTimeSliderTests;
+			sourceTree = "<group>";
+		};
+		18A95D0A2575308B0036A8F3 /* LCTimeSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A95D0B2575308B0036A8F3 /* LCTimeSliderUITests.m */,
+				18A95D0D2575308B0036A8F3 /* Info.plist */,
+			);
+			path = LCTimeSliderUITests;
+			sourceTree = "<group>";
+		};
+		18A95D192575309F0036A8F3 /* RMCQTimeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				18A95D21257530B30036A8F3 /* RMCQSlider.h */,
+				18A95D1E257530B30036A8F3 /* RMCQSlider.m */,
+				18A95D2E257530B40036A8F3 /* RMCQSliderButtonView.h */,
+				18A95D2C257530B40036A8F3 /* RMCQSliderButtonView.m */,
+				18A95D1C257530B30036A8F3 /* RMCQSliderScrollview.h */,
+				18A95D1D257530B30036A8F3 /* RMCQSliderScrollview.m */,
+				18A95D22257530B30036A8F3 /* RMCQSliderView.h */,
+				18A95D1F257530B30036A8F3 /* RMCQSliderView.m */,
+				18A95D23257530B30036A8F3 /* RMCQStatusData.h */,
+				18A95D2D257530B40036A8F3 /* RMCQStatusData.m */,
+				18A95D25257530B30036A8F3 /* RMCQStatusScrollview.h */,
+				18A95D28257530B30036A8F3 /* RMCQStatusScrollview.m */,
+				18A95D2F257530B40036A8F3 /* RMCQStatusStripCell.h */,
+				18A95D1A257530B30036A8F3 /* RMCQStatusStripCell.m */,
+				18A95D24257530B30036A8F3 /* RMCQStatusView.h */,
+				18A95D26257530B30036A8F3 /* RMCQStatusView.m */,
+				18A95D2A257530B40036A8F3 /* RMCQTextField.h */,
+				18A95D29257530B40036A8F3 /* RMCQTextField.m */,
+				18A95D27257530B30036A8F3 /* RMCQtextView.h */,
+				18A95D30257530B40036A8F3 /* RMCQtextView.m */,
+				18A95D20257530B30036A8F3 /* RMCQTimeSlider.h */,
+				18A95D1B257530B30036A8F3 /* RMCQTimeSlider.m */,
+				18A95D2B257530B40036A8F3 /* RMCQTimeSliderDelegate.h */,
+			);
+			path = RMCQTimeSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A95CE2257530880036A8F3 /* LCTimeSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A95D102575308B0036A8F3 /* Build configuration list for PBXNativeTarget "LCTimeSlider" */;
+			buildPhases = (
+				18A95CDF257530880036A8F3 /* Sources */,
+				18A95CE0257530880036A8F3 /* Frameworks */,
+				18A95CE1257530880036A8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCTimeSlider;
+			productName = LCTimeSlider;
+			productReference = 18A95CE3257530880036A8F3 /* LCTimeSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A95CFB2575308B0036A8F3 /* LCTimeSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A95D132575308B0036A8F3 /* Build configuration list for PBXNativeTarget "LCTimeSliderTests" */;
+			buildPhases = (
+				18A95CF82575308B0036A8F3 /* Sources */,
+				18A95CF92575308B0036A8F3 /* Frameworks */,
+				18A95CFA2575308B0036A8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A95CFE2575308B0036A8F3 /* PBXTargetDependency */,
+			);
+			name = LCTimeSliderTests;
+			productName = LCTimeSliderTests;
+			productReference = 18A95CFC2575308B0036A8F3 /* LCTimeSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A95D062575308B0036A8F3 /* LCTimeSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A95D162575308B0036A8F3 /* Build configuration list for PBXNativeTarget "LCTimeSliderUITests" */;
+			buildPhases = (
+				18A95D032575308B0036A8F3 /* Sources */,
+				18A95D042575308B0036A8F3 /* Frameworks */,
+				18A95D052575308B0036A8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A95D092575308B0036A8F3 /* PBXTargetDependency */,
+			);
+			name = LCTimeSliderUITests;
+			productName = LCTimeSliderUITests;
+			productReference = 18A95D072575308B0036A8F3 /* LCTimeSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A95CDB257530880036A8F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "刘超";
+				TargetAttributes = {
+					18A95CE2257530880036A8F3 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					18A95CFB2575308B0036A8F3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 18A95CE2257530880036A8F3;
+					};
+					18A95D062575308B0036A8F3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 18A95CE2257530880036A8F3;
+					};
+				};
+			};
+			buildConfigurationList = 18A95CDE257530880036A8F3 /* Build configuration list for PBXProject "LCTimeSlider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A95CDA257530880036A8F3;
+			productRefGroup = 18A95CE4257530880036A8F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A95CE2257530880036A8F3 /* LCTimeSlider */,
+				18A95CFB2575308B0036A8F3 /* LCTimeSliderTests */,
+				18A95D062575308B0036A8F3 /* LCTimeSliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A95CE1257530880036A8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A95CF02575308A0036A8F3 /* Assets.xcassets in Resources */,
+				18A95CF32575308A0036A8F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A95CFA2575308B0036A8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A95D052575308B0036A8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A95CDF257530880036A8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A95D32257530B40036A8F3 /* RMCQTimeSlider.m in Sources */,
+				18A95CEE257530880036A8F3 /* LCTimeSlider.xcdatamodeld in Sources */,
+				18A95D3A257530B40036A8F3 /* RMCQStatusData.m in Sources */,
+				18A95D37257530B40036A8F3 /* RMCQStatusScrollview.m in Sources */,
+				18A95D35257530B40036A8F3 /* RMCQSliderView.m in Sources */,
+				18A95D39257530B40036A8F3 /* RMCQSliderButtonView.m in Sources */,
+				18A95D31257530B40036A8F3 /* RMCQStatusStripCell.m in Sources */,
+				18A95CEB257530880036A8F3 /* ViewController.m in Sources */,
+				18A95CF62575308A0036A8F3 /* main.m in Sources */,
+				18A95D34257530B40036A8F3 /* RMCQSlider.m in Sources */,
+				18A95D33257530B40036A8F3 /* RMCQSliderScrollview.m in Sources */,
+				18A95CE8257530880036A8F3 /* AppDelegate.m in Sources */,
+				18A95D3B257530B40036A8F3 /* RMCQtextView.m in Sources */,
+				18A95D38257530B40036A8F3 /* RMCQTextField.m in Sources */,
+				18A95D36257530B40036A8F3 /* RMCQStatusView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A95CF82575308B0036A8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A95D012575308B0036A8F3 /* LCTimeSliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A95D032575308B0036A8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A95D0C2575308B0036A8F3 /* LCTimeSliderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A95CFE2575308B0036A8F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A95CE2257530880036A8F3 /* LCTimeSlider */;
+			targetProxy = 18A95CFD2575308B0036A8F3 /* PBXContainerItemProxy */;
+		};
+		18A95D092575308B0036A8F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A95CE2257530880036A8F3 /* LCTimeSlider */;
+			targetProxy = 18A95D082575308B0036A8F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A95CF12575308A0036A8F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A95CF22575308A0036A8F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A95D0E2575308B0036A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18A95D0F2575308B0036A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18A95D112575308B0036A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LCTimeSlider/LCTimeSlider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LCTimeSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCTimeSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A95D122575308B0036A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LCTimeSlider/LCTimeSlider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LCTimeSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCTimeSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A95D142575308B0036A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LCTimeSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCTimeSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCTimeSlider.app/Contents/MacOS/LCTimeSlider";
+			};
+			name = Debug;
+		};
+		18A95D152575308B0036A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LCTimeSliderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCTimeSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCTimeSlider.app/Contents/MacOS/LCTimeSlider";
+			};
+			name = Release;
+		};
+		18A95D172575308B0036A8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LCTimeSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCTimeSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCTimeSlider;
+			};
+			name = Debug;
+		};
+		18A95D182575308B0036A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LCTimeSliderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LC.LCTimeSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCTimeSlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A95CDE257530880036A8F3 /* Build configuration list for PBXProject "LCTimeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A95D0E2575308B0036A8F3 /* Debug */,
+				18A95D0F2575308B0036A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A95D102575308B0036A8F3 /* Build configuration list for PBXNativeTarget "LCTimeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A95D112575308B0036A8F3 /* Debug */,
+				18A95D122575308B0036A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A95D132575308B0036A8F3 /* Build configuration list for PBXNativeTarget "LCTimeSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A95D142575308B0036A8F3 /* Debug */,
+				18A95D152575308B0036A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A95D162575308B0036A8F3 /* Build configuration list for PBXNativeTarget "LCTimeSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A95D172575308B0036A8F3 /* Debug */,
+				18A95D182575308B0036A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18A95CEC257530880036A8F3 /* LCTimeSlider.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18A95CED257530880036A8F3 /* LCTimeSlider.xcdatamodel */,
+			);
+			currentVersion = 18A95CED257530880036A8F3 /* LCTimeSlider.xcdatamodel */;
+			path = LCTimeSlider.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18A95CDB257530880036A8F3 /* Project object */;
+}
